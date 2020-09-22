@@ -1,4 +1,103 @@
 body{
   display: flex;
     justify-content: center;
+    background: grey;
+}
+
+#container{
+  position: relative;
+  top: 25px;
+  width: 800px;
+
+}
+
+#bestplaces{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+
+}
+
+#content-box1{
+  background:#fff;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+#milleniumpark{
+  display: flex;
+  justify-content: center;
+
+}
+
+#content-box2{
+  background:#fff;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+#navypier{
+  display: flex;
+  justify-content: center;
+
+}
+
+#content-box3{
+  background:#fff;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+#willistower{
+  display: flex;
+  justify-content: center;
+
+}
+
+#content-box4{
+  background:#fff;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+#buckinghamfountain{
+  display: flex;
+  justify-content: center;
+
+}
+
+#content-box5{
+  background:#fff;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+#artinstitute{
+  display: flex;
+  justify-content: center;
+
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+  list-style-type: none;
+  padding: 0px;
+
+}
+
+a{
+  position: relative;
+  text-decoration: none;
+  background: #fff;
+  padding: 15px;
+
+}
+
+a:hover{
+  background: purple;
+
 }
