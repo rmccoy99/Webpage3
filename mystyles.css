@@ -1,7 +1,7 @@
 body{
   display: flex;
     justify-content: center;
-    background: grey;
+    background: lightgrey;
 }
 
 #container{
@@ -16,13 +16,19 @@ body{
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
+  color: DodgerBlue;
 
 }
 
-#content-box1{
+#content-box{
   background:#fff;
   padding: 15px;
   margin-bottom: 20px;
+}
+
+#image1 img{
+  width: 100%;
+
 }
 
 #milleniumpark{
@@ -31,22 +37,10 @@ body{
 
 }
 
-#content-box2{
-  background:#fff;
-  padding: 15px;
-  margin-bottom: 20px;
-}
-
 #navypier{
   display: flex;
   justify-content: center;
 
-}
-
-#content-box3{
-  background:#fff;
-  padding: 15px;
-  margin-bottom: 20px;
 }
 
 #willistower{
@@ -55,22 +49,10 @@ body{
 
 }
 
-#content-box4{
-  background:#fff;
-  padding: 15px;
-  margin-bottom: 20px;
-}
-
 #buckinghamfountain{
   display: flex;
   justify-content: center;
 
-}
-
-#content-box5{
-  background:#fff;
-  padding: 15px;
-  margin-bottom: 20px;
 }
 
 #artinstitute{
@@ -98,6 +80,21 @@ a{
 }
 
 a:hover{
-  background: purple;
+  color: grey;
+
+}
+
+a:active{
+  color:#6495ED;
+
+}
+
+a:link{
+  color: black;
+
+}
+
+a:visited{
+  color: black;
 
 }
